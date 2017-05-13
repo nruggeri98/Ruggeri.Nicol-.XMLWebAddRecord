@@ -1,0 +1,30 @@
+﻿@using Ruggeri.Nicolò._5H.XMLWebAddRecord.Models;
+@model IEnumerable<Persona>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<h2>Lista Persone in XML File</h2>
+<table class="table table-responsive">
+    @{
+        foreach (var p in Model)
+        {
+            <tr>
+                <td>@p.Nome</td>
+                <td>@p.Cognome</td>
+                @{if (p.Stato == "Iscritto")
+                    {
+                        <td class="success">@p.Stato</td>
+                    }
+                    else
+                    {
+                        <td class="alert-danger">@p.Stato</td>
+                    }
+                }
+            </tr>
+                    }
+    }
+</table>
+@Html.ActionLink("Aggiungi una persona", "Aggiungi")

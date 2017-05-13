@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <persone>
+    <persona Nome="Giovanni" Cognome="Gobbi" Stato="Iscritto"></persona>
+    <persona Nome="Maurizio" Cognome="Conti" Stato="NonIscritto"></persona>
+    <persona Nome="Pamela" Cognome="Sanchini" Stato="Iscritto"></persona>
+    <persona Nome="Federico" Cognome="Santini" Stato="Iscritto"></persona>
+    <persona Nome="Alessandro" Cognome="Barbieri" Stato="NonIscritto"></persona>
+    <persona Nome="Alessandro" Cognome="Mattioli" Stato="Iscritto"></persona>
+  </persone>
+</root>
